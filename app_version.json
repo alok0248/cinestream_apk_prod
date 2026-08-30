@@ -1,0 +1,16 @@
+{
+  "latest_version": "v3.4.8.392",
+  "latest_build": 392,
+  "min_supported_build": 385,
+  "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_prod/main/app-release.apk",
+  "changelog": [
+    "Fixed registration 404 — uses hostname instead of IP",
+    "Fixed ads click count — handles both string and int values from server",
+    "Config caching — API key and player URLs cached for instant startup",
+    "Connection errors preserve cached state",
+    "ConfigClient uses phone network settings — no custom DNS",
+    "IP fallback for hostname resolution failure",
+    "Production signing key",
+    "R8 minification — smaller APK size"
+  ]
+}

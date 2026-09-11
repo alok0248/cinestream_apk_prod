@@ -1,14 +1,13 @@
 {
-  "latest_version": "v3.4.8.529",
-  "latest_build": 529,
+  "latest_version": "v3.4.8.530",
+  "latest_build": 530,
   "min_supported_build": 385,
+  "build_type": "PRODUCTION",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_prod/main/app-release.apk",
   "changelog": [
-    "Fixed registration and login endpoints",
-    "Fixed ads click count parsing",
-    "Config caching for instant startup",
-    "Connection error handling improvements",
-    "Production signing key",
-    "R8 minification"
+    "CineStream PRODUCTION release v3.4.8.530",
+    "Built with consistent production signing key",
+    "R8 minification and resource shrinking enabled",
+    "Auto-generated via deploy workflow"
   ]
 }

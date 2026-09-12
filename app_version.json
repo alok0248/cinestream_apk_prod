@@ -1,11 +1,11 @@
 {
-  "latest_version": "v3.4.8.531",
-  "latest_build": 531,
+  "latest_version": "v3.4.8.532",
+  "latest_build": 532,
   "min_supported_build": 385,
   "build_type": "PRODUCTION",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_prod/main/app-release.apk",
   "changelog": [
-    "CineStream PRODUCTION release v3.4.8.531",
+    "CineStream PRODUCTION release v3.4.8.532",
     "Built with consistent production signing key",
     "R8 minification and resource shrinking enabled",
     "Auto-generated via deploy workflow"

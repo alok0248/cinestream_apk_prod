@@ -1,13 +1,13 @@
 {
-  "latest_version": "v3.4.8.657",
-  "latest_build": 657,
+  "latest_version": "v3.4.8.658",
+  "latest_build": 658,
   "min_supported_build": 385,
   "build_type": "PRODUCTION",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_prod/main/app-release.apk",
   "changelog": [
-    "CineStream PRODUCTION release v3.4.8.657",
-    "Built with consistent production signing key",
-    "R8 minification and resource shrinking enabled",
-    "Auto-generated via deploy workflow"
+    "CineStream PRODUCTION release v3.4.8.658",
+    "Removed bundled LibVLC and the local JioTV server - APK down from ~75 MB to ~7 MB",
+    "Player uses ExoPlayer / VideoView / WebView only, playback behaviour unchanged",
+    "R8 minification and resource shrinking enabled"
   ]
-}
+}

@@ -1,8 +1,8 @@
 {
   "latest_version": "v3.4.8.688",
   "latest_build": 688,
-  "apk_sha256": "38dd4e3136b01ac5b7ef5f5e913b2d0d7d37336a92a7b3971e706a86f3d2906c",
-  "source_commit": "2a2d0b7",
+  "apk_sha256": "ff8af2a580aa316020377a05373cac1a47c4b8303ad9bc5e13456ac6a23a285a",
+  "source_commit": "bfb8518",
   "min_supported_build": 385,
   "build_type": "PRODUCTION",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_prod/main/app-release.apk",

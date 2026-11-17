@@ -1,15 +1,19 @@
 {
-  "latest_version": "v3.4.8.691",
-  "latest_build": 691,
-  "apk_sha256": "c3742dc94eed89e3e4cde47566e5e0e661543be71fad9e4e02913087234d4c0a",
-  "source_commit": "3d1d083",
+  "latest_version": "v3.7.001",
+  "latest_build": 701,
+  "apk_sha256": "77a79f94596402cb1787860669fb71d187701c742aa889c5b09030949519b8d6",
+  "source_commit": "9e4d198",
   "min_supported_build": 385,
   "build_type": "PRODUCTION",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_prod/main/app-release.apk",
   "changelog": [
-    "CineStream PRODUCTION release v3.4.8.691",
-    "Built with consistent production signing key",
-    "R8 minification and resource shrinking enabled",
-    "Auto-generated via deploy workflow"
+    "CineStream PRODUCTION release v3.7.001 (build 701)",
+    "Motion posters request the tile's exact size: one decode per card, no more tiles resizing as images load",
+    "Oversized or unbounded image requests are logged (logcat tag CoilSize) instead of decoding full-size bitmaps",
+    "Download control centre and device-local downloads survive app restarts",
+    "Playback history is kept for every provider and across database upgrades",
+    "Subtitle parsing is hardened and the player chrome scales with the window",
+    "Home labels follow the theme type scale, with the theme's missing colour roles filled in",
+    "Update APKs are verified against the published sha256 before Android installs them"
   ]
 }
